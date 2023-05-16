@@ -1,0 +1,56 @@
+body{
+    background-color: red;
+  text-decoration: underline;
+}
+
+
+  @media screen and (max-width: 200px){
+
+  }
+    .column {
+      width: 100%;
+    }
+    
+    .icon-bar a:hover{
+        background-color: #000;
+    }
+    
+    .icon-bar a{
+        float: left; 
+        text-align: center;
+        width: 20%; 
+        padding: 12px 0;
+        transition: all 0.3s ease; 
+        color: white; 
+        font-size: 36px; 
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    img{
+      width: 600px;
+      height: 300px;
+    }
+
+    column {
+        float: right;
+        width: 33.33%;
+        padding: 5px;
+      }
+    
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    
+      .row{
+        display: flex;
+      }
+        
+
+    
